@@ -1,2 +1,2 @@
-# syllabify_english_hindi
+# Python benchmarks for English/Hindi syllable counters and syllabification methods
 
