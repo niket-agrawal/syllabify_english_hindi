@@ -96,3 +96,9 @@ Dataset 2 - Random from Github
 - Web based approach, apis etc. (https://stackoverflow.com/questions/10414957/using-python-to-find-syllables/10416028#10416028)
      - https://www.howmanysyllables.com/syllables/table
      - https://www.wordcalc.com/index.php
+- https://datascience.stackexchange.com/questions/23376/how-to-get-the-number-of-syllables-in-a-word
+- https://stackoverflow.com/questions/14541303/count-the-number-of-syllables-in-a-word
+- https://stackoverflow.com/questions/5876040/number-of-syllables-for-words-in-a-text
+- https://www.researchgate.net/post/How-to-automatically-cut-words-into-syllables
+- https://stackoverflow.com/questions/405161/detecting-syllables-in-a-word
+- https://stackoverflow.com/questions/46759492/syllable-count-in-python
