@@ -18,24 +18,25 @@
 - misc libs, `syllapy` and `syllables`
 
 **1.3 Some packages syllabify and count, others just count syllables:**
-| **Method Type**             | **Implementation Type** | **Implementation Name**       |
-|-----------------------------|-------------------------|-------------------------------|
-| **Syllabification + Count** | Library                 | nltk (sonority-based)         |
-|                             |                         | indic lib                     |
-|                             | Hyphenation Library     | pyphen                        |
-|                             |                         | hyphenate                     |
-|                             | Machine Learning Model  | spaCy syllable                |
-|                             |                         | spaCy nlp (same little faster)|
-| **Count Only**              | User Contributed        | basirico                      |
-|                             |                         | anonuser1                     |
-|                             |                         | abigailb                      |
-|                             |                         | hauntninja                    |
-|                             |                         | tarun – sylco                 |
-|                             | Library                 | nltk (cmudict)                |
-|                             |                         | syllapy                       |
-|                             |                         | syllables                     |
-|                             | Machine Learning Model  | meow25                        |
-|                             |                         | bigphoney                     |
+| **Method Type**             | **Implementation Type** | **Implementation Name**       | **References** |
+|-----------------------------|-------------------------|-------------------------------|----------------|
+| **Syllabification + Count** | Library                 | nltk (sonority-based)         | [nltk sonority](https://www.nltk.org/api/nltk.tokenize.sonority_sequencing.html) |
+|                             |                         | indic lib                     | [libindic](https://github.com/libindic/libindic-utils) |
+|                             | Hyphenation Library     | pyphen                        | [pyphen.org](https://pyphen.org/) · [baeldung](https://www.baeldung.com/cs/syllabification-nltk-pyphen) |
+|                             |                         | hyphenate                     | [StackOverflow](https://stackoverflow.com/a/61469194) · [nedbatchelder](https://nedbatchelder.com/code/modules/hyphenate.html) |
+|                             | Machine Learning Model  | spaCy syllable                | [StackOverflow](https://stackoverflow.com/a/67861539) |
+|                             |                         | spaCy nlp (same little faster)| [spaCy syllables project](https://spacy.io/universe/project/spacy_syllables) |
+| **Count Only**              | User Contributed        | basirico                      | [StackOverflow](https://stackoverflow.com/a/5615724) |
+|                             |                         | anonuser1                     | [StackOverflow](https://stackoverflow.com/a/52466549) |
+|                             |                         | abigailb                      | [StackOverflow](https://stackoverflow.com/questions/14541303/count-the-number-of-syllables-in-a-word) |
+|                             |                         | hauntninja                    | [DataScience SE](https://datascience.stackexchange.com/a/89312) |
+|                             |                         | tarun – sylco                 | [StackOverflow](https://stackoverflow.com/a/50851189) |
+|                             | Library                 | nltk (cmudict)                | [StackOverflow](https://stackoverflow.com/a/5876365) · [Google Groups](https://groups.google.com/g/nltk-users/c/mCOh_u7V8_I) |
+|                             |                         | syllapy                       | [PyPI](https://pypi.org/project/syllapy/) |
+|                             |                         | syllables                     | [PyPI](https://pypi.org/project/syllables/) |
+|                             | Machine Learning Model  | meow25                        | [GitHub](https://github.com/meooow25/syllable) · [Notebook](https://github.com/meooow25/syllable/blob/master/prepare.ipynb) |
+|                             |                         | bigphoney                     | [StackOverflow](https://stackoverflow.com/a/51142947) · [Kaggle](https://www.kaggle.com/code/reppic/predicting-english-pronunciations) · [GitHub](https://github.com/repp/big-phoney) |
+
 
 **1.4 Results**
 **Benchmarking result**:
