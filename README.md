@@ -90,6 +90,20 @@ Dataset 2 - Random from Github
 </tr>
 </table>
 
+## 2. Hindi syllabification methods
+
+**2.1 We have tested these for Hindi:**
+- Indic library
+- Script by Anurag for MECO etc.
+- Script by Niket for Wuggy-nShabd segmentation
+- Script by user https://stackoverflow.com/a/47123580
+
+**2.2 Results**
+- Syllables in Hindi are called _Shabdansh_, i.e. word segments
+- Niket's script and Indic library outputs are slightly off (relatively)
+- Indic gives wrong results with chandrabindu and neeche ka bindu
+- Niket gives wrong results with half aksharas
+- With Parinde dataset, we recommend to use Anurag's script or by user (both work equally well)
 
 ### To be implemented:
 - Gold standard is dictionary (human intervention)
